@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to top right, rgb(22, 21, 21), rgb(151, 143, 143));
+}
+
+header {
+    position: static;
+}
+
+main ul {
+    width: 800px;
+    /* margin: 0 auto; */
+}
+
+ main li{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 60px rgba(0, 0,0, 0.6);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+main li img {
+    width: 300px;
+    height: 280px;
+}
+
+.item-content{
+padding: 24px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.actions{
+    text-align: right;
+}
+
+.actions a{
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(22, 211, 228);
+    border-radius: 4px;
+}
+
+.actions a:hover{
+    background-color: rgba(64, 208, 221, 0.2);
+}
